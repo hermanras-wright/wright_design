@@ -296,6 +296,300 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "CAP_0805_100nF_50V_CL21B104KBCNNNC"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 3.8109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "CAP_0805_100nF_50V_CL21B104KBCNNNC"
+			(at 0 -5.0885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CL21B104KBCNNNC:CAPC2012X95N"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 50V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_max" "1.35"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_max" "0.7"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_max" "0.95"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_nom" "0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_max" "2.1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_nom" "0.95"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_max" "0.7"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_min" "0.2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_min" "0.95"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_min" "1.15"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_min" "1.9"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_nom" "2.0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_nom" "1.25"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_min" "0.2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_nom" "0.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "WPN" "0101-00015"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CAP_0805_100nF_50V_CL21B104KBCNNNC_0_0"
+			(rectangle
+				(start 0 -1.9069)
+				(end 0.635 1.905)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.9069 -1.9069)
+				(end 2.54 1.905)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "CAP_0805_10nF_50V_C0805C103J5RAC"
 		(pin_names
 			(offset 0.254)
@@ -843,7 +1137,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "CAP_1206_22uF_25V_CL31A226KAHNNNE"
+	(symbol "CAP_1206_22uF_16V_CL31A226KOHNNNE"
 		(pin_names
 			(offset 1.016)
 		)
@@ -859,7 +1153,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CAP_1206_22uF_25V_CL31A226KAHNNNE"
+		(property "Value" "CAP_1206_22uF_16V_CL31A226KOHNNNE"
 			(at 0 -5.0885 0)
 			(effects
 				(font
@@ -888,7 +1182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22uF 25V"
+		(property "Description" "22uF 16V"
 			(at 6.604 4.572 0)
 			(effects
 				(font
@@ -1155,7 +1449,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "CAP_1206_22uF_25V_CL31A226KAHNNNE_0_0"
+		(symbol "CAP_1206_22uF_16V_CL31A226KOHNNNE_0_0"
 			(rectangle
 				(start 0 -1.9069)
 				(end 0.635 1.905)
@@ -5574,7 +5868,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "CR"
+		(property "Reference" "D"
 			(at -0.635 -10.16 0)
 			(effects
 				(font
@@ -5801,6 +6095,60 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(pin input line
+				(at -6.35 5.08 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -5.08 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
@@ -6141,7 +6489,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 0 0)
+				(at -15.24 -1.27 0)
 				(length 5.08)
 				(name "EN"
 					(effects
@@ -6151,6 +6499,24 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -15.24 -7.62 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6177,7 +6543,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 2.54 180)
+				(at 15.24 -1.27 180)
 				(length 5.08)
 				(name "SW"
 					(effects
@@ -6195,7 +6561,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -2.54 180)
+				(at 15.24 -7.62 180)
 				(length 5.08)
 				(name "FB"
 					(effects
@@ -6205,24 +6571,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 15.24 -7.62 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6258,7 +6606,7 @@
 			)
 		)
 		(property "Footprint" "HTSOP-J8_ROM"
-			(at 0 0 0)
+			(at 33.02 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6268,7 +6616,7 @@
 			)
 		)
 		(property "Datasheet" "BD9G341AEFJ-E2"
-			(at 0 0 0)
+			(at 33.02 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +6626,7 @@
 			)
 		)
 		(property "Description" "BD9G341AEFJ-E2"
-			(at 0 0 0)
+			(at 33.02 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,7 +6634,7 @@
 			)
 		)
 		(property "WPN" "0104-00004"
-			(at 0 0 0)
+			(at 33.02 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6315,7 +6663,7 @@
 		(symbol "VREG_1V_3A_12V-76V_BD9G341AEFJ-E2_0_1"
 			(polyline
 				(pts
-					(xy 7.62 5.08) (xy 7.62 -15.24)
+					(xy 0 5.08) (xy 0 -15.24)
 				)
 				(stroke
 					(width 0.127)
@@ -6327,7 +6675,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -15.24) (xy 33.02 -15.24)
+					(xy 0 -15.24) (xy 25.4 -15.24)
 				)
 				(stroke
 					(width 0.127)
@@ -6339,7 +6687,7 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 5.08) (xy 7.62 5.08)
+					(xy 25.4 5.08) (xy 0 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -6351,7 +6699,7 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 -15.24) (xy 33.02 5.08)
+					(xy 25.4 -15.24) (xy 25.4 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -6359,100 +6707,10 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(pin unspecified line
-				(at 0 0 0)
-				(length 7.62)
-				(name "LX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(name "VC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(name "FB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 40.64 0 180)
-				(length 7.62)
-				(name "EPAD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "EPAD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin power_in line
-				(at 40.64 -2.54 180)
+				(at -7.62 1.27 0)
 				(length 7.62)
 				(name "VCC"
 					(effects
@@ -6470,7 +6728,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 40.64 -5.08 180)
+				(at -7.62 -2.54 0)
 				(length 7.62)
 				(name "BST"
 					(effects
@@ -6488,7 +6746,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 40.64 -7.62 180)
+				(at -7.62 -6.35 0)
 				(length 7.62)
 				(name "EN"
 					(effects
@@ -6506,7 +6764,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 40.64 -10.16 180)
+				(at -7.62 -10.16 0)
 				(length 7.62)
 				(name "RT"
 					(effects
@@ -6516,6 +6774,96 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -22.86 90)
+				(length 7.62)
+				(name "EPAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "EPAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 33.02 1.27 180)
+				(length 7.62)
+				(name "LX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 33.02 -2.54 180)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 33.02 -6.35 180)
+				(length 7.62)
+				(name "VC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 33.02 -10.16 180)
+				(length 7.62)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
