@@ -28,7 +28,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CL21B104KCFSFNG:CAPC2012X135N"
+		(property "Footprint" "wright_design:CAPC2012X135N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -322,7 +322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CL21B104KBCNNNC:CAPC2012X95N"
+		(property "Footprint" "wright_design:CAPC2012X95N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -869,7 +869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CL31A106KAHNNNE:CAPC3216X180N"
+		(property "Footprint" "wright_design:CAPC3216X180N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1163,7 +1163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CL31A226KAHNNNE:CAPC3216X180N"
+		(property "Footprint" "wright_design:CAPC3216X180N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1537,7 +1537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C5750X7S2A106K230KB:CAPC5750X310N"
+		(property "Footprint" "wright_design:CAPC5750X310N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1701,7 +1701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "100ZLH100MEFC10X20:CAPPRD500W60D1000H2200B"
+		(property "Footprint" "wright_design:CAPPRD500W60D1000H2200B"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1887,6 +1887,150 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "CAP_POLARIZED_100uF_25V_25YXM100MEFR6.3X11"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CAP_POLARIZED_100uF_25V_25YXM100MEFR6.3X11"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXM.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100uF 25V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WPN" "0118-00003"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CAP_POLARIZED_100uF_25V_25YXM100MEFR6.3X11_0_1"
+			(rectangle
+				(start -2.286 -4.572)
+				(end 2.286 -4.064)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 -2.794) (xy -0.762 -2.794)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -2.286) (xy -1.27 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2.286 -5.588)
+				(end -2.286 -6.096)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "CAP_POLARIZED_100uF_25V_25YXM100MEFR6.3X11_1_1"
+			(pin passive line
+				(at 0 -1.27 270)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -8.89 90)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "DCDC_12V_165mA_2W_10.8V-13.2V_TBA2-1212"
 		(pin_names
 			(offset 1.016)
@@ -1913,7 +2057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TBA2-1212:CONV_TBA2-1212"
+		(property "Footprint" "wright_design:CONV_TBA2-1212"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2146,6 +2290,127 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "FUSE_0805_63VDC_2A_F0805B2R00FSTR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "F0805B2R00FSTR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "wright_design:FUSC2112X110N"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/AccuGuard2.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "F0805B2R00FSTR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WPN" "0123-00006"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FUSE_0805_63VDC_2A_F0805B2R00FSTR_0_1"
+			(polyline
+				(pts
+					(xy -3.175 -3.175) (xy 1.905 -3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1.905 -3.937)
+				(end -3.175 -2.413)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "FUSE_0805_63VDC_2A_F0805B2R00FSTR_1_1"
+			(pin passive line
+				(at -4.445 -3.175 0)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.175 -3.175 180)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "HEADER_280377-1"
 		(pin_names
 			(offset 1.016)
@@ -2172,7 +2437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "280377-1:TE_280377-1"
+		(property "Footprint" "wright_design:TE_280377-1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2315,7 +2580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5-146254-4:TE_5-146254-4"
+		(property "Footprint" "wright_design:TE_5-146254-4"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2566,7 +2831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "VLS5045EX-2R2N-H:IND_VLS5045EX-2R2N-H"
+		(property "Footprint" "wright_design:IND_VLS5045EX-2R2N-H"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2848,7 +3113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "IND_DR127-330-R_EAT"
+		(property "Footprint" "wright_design:IND_DR127-330-R_EAT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3223,7 +3488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DMP10H4D2S-7:SOT91P240X115-3N"
+		(property "Footprint" "wright_design:SOT91P240X115-3N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3739,7 +4004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RC0805FR-07100KL:RESC2012X60N"
+		(property "Footprint" "wright_design:RESC2012X60N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3949,7 +4214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RC0805FR-0710KL:RESC2012X60N"
+		(property "Footprint" "wright_design:RESC2012X60N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4159,7 +4424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RC0805FR-0715KL:RESC2012X60N"
+		(property "Footprint" "wright_design:RESC2012X60N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4369,7 +4634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RC0805FR-0720KL:RESC2012X60N"
+		(property "Footprint" "wright_design:RESC2012X60N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4579,7 +4844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RC0805FR-0730KL:RESC2012X60N"
+		(property "Footprint" "wright_design:RESC2012X60N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4869,7 +5134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RC0805FR-1047KL:RESC2012X60N"
+		(property "Footprint" "wright_design:RESC2012X60N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5107,7 +5372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RC0805FR-075K6L:RESC2012X60N"
+		(property "Footprint" "wright_design:RESC2012X60N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5387,7 +5652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RC0805FR-076K8L:RESC2012X60N"
+		(property "Footprint" "wright_design:RESC2012X60N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5597,7 +5862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RC0805FR-07620RL:RESC2012X60N"
+		(property "Footprint" "wright_design:RESC2012X60N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5885,7 +6150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DIODE_TO-277A"
+		(property "Footprint" "wright_design:DIODE_TO-277A"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6302,7 +6567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "AP62250WU-7:SOT95P280X100-6N"
+		(property "Footprint" "wright_design:SOT95P280X100-6N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6605,7 +6870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HTSOP-J8_ROM"
+		(property "Footprint" "wright_design:HTSOP-J8_ROM"
 			(at 33.02 1.27 0)
 			(effects
 				(font
@@ -6900,7 +7165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "VC080505C150RP:TVS_VC080505C150RP"
+		(property "Footprint" "wright_design:TVS_VC080505C150RP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7188,7 +7453,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 25.4 10.16 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7196,7 +7461,7 @@
 			)
 		)
 		(property "Value" "ZENER_12V_225mW_MMBZ5242ELT1G"
-			(at 25.4 7.62 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7204,8 +7469,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SOT-23-3_1P4X3P040_ONS"
-			(at 0 0 0)
+		(property "Footprint" "wright_design:SOT-23-3_1P4X3P040_ONS"
+			(at -25.146 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,7 +7480,7 @@
 			)
 		)
 		(property "Datasheet" "MMBZ5242ELT1G"
-			(at 0 0 0)
+			(at -25.146 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7225,7 +7490,7 @@
 			)
 		)
 		(property "Description" "MMBZ5242ELT1G"
-			(at 0 0 0)
+			(at -25.146 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7233,7 +7498,7 @@
 			)
 		)
 		(property "WPN" "0103-00002"
-			(at 0 0 0)
+			(at -25.146 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7262,10 +7527,10 @@
 		(symbol "ZENER_12V_225mW_MMBZ5242ELT1G_0_1"
 			(polyline
 				(pts
-					(xy 7.62 5.08) (xy 7.62 -7.62)
+					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
 				)
 				(stroke
-					(width 0.127)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -7274,10 +7539,10 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -7.62) (xy 43.18 -7.62)
+					(xy -1.27 0) (xy 1.27 0)
 				)
 				(stroke
-					(width 0.127)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -7286,32 +7551,22 @@
 			)
 			(polyline
 				(pts
-					(xy 43.18 5.08) (xy 7.62 5.08)
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy 0.762 -1.27)
 				)
 				(stroke
-					(width 0.127)
+					(width 0.254)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 43.18 -7.62) (xy 43.18 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
+		)
+		(symbol "ZENER_12V_225mW_MMBZ5242ELT1G_1_1"
 			(pin unspecified line
-				(at 0 0 0)
-				(length 7.62)
-				(name "ANODE"
+				(at -3.81 0 0)
+				(length 2.54)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7327,27 +7582,9 @@
 				)
 			)
 			(pin unspecified line
-				(at 50.8 0 180)
-				(length 7.62)
-				(name "CATHODE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 50.8 -2.54 180)
-				(length 7.62)
-				(name "NC"
+				(at 3.81 0 180)
+				(length 2.54)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
