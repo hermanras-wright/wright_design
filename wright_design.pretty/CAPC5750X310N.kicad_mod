@@ -165,4 +165,15 @@
 		(uuid "ce9011f9-79e0-4401-9da3-7b401b355b57")
 	)
 	(embedded_fonts no)
+	(model "C:/Users/HermanRas/OneDrive - Wright Energy Storage/Documents/KiCad Models/PSU models/C5750X7S2A106K230KB/C5750X7S2A106K230KB.step"
+		(offset
+			(xyz 0 -1.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
